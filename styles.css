@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(18, 177, 18);
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+nav {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #19b919;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+}
+
+footer {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 1rem;
+}
