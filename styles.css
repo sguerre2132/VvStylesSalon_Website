@@ -115,19 +115,19 @@ footer {
 }
 
 .fb-img {
-  width: 30px;
-  height: 30px;
+  width: 100px;
+  height: auto;
 
 }
 
 .ig-img {
-  width: 30px;
-  height: 30px;
+  width: 100px;
+  height: auto;
 }
 
 .booking-img {
-  width: 30px;
-  height: 30px;
+  width: 100px;
+  height: auto;
 }
 
 .salon-img {
