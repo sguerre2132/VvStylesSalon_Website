@@ -38,10 +38,54 @@
     <section>
         <h2>Directions via Google Maps</h2>
         <p><a href="https://www.google.com/maps/dir//859+Riverside+Dr+Suite+1,+Greenwood,+IN+46142/@39.628027,-86.1985063,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x886b5de69f8279bb:0xcee4483ea1b20f52!2m2!1d-86.1161056!2d39.6280431?entry=ttu&g_ep=EgoyMDI1MDcwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="button-contact">Google Maps</a></p>
+        <img src="images/google_logo.png" alt="Google Maps logo" class="map-img">
     </section>
-  </main>
+    <section>
+     <h3> Vv Styles in Greenwood</h3>
+     <img src="images/salon_pic_1.jpg" alt="Salon" class="salon-img">
+    </section>
+    <section>
+    <h2>Sign Up for Promotions</h2>
+    <p>Be the first to know about special offers, classes, and beauty updates from Vv Styles!</p>
+  
+  <form id="promoForm" onsubmit="return validatePromoForm()">
+    <label for="promo-name">Name:</label><br>
+    <input type="text" id="promo-name" name="promo-name" placeholder="Your name"><br><br>
+
+    <label for="promo-email">Email:</label><br>
+    <input type="email" id="promo-email" name="promo-email" placeholder="you@example.com"><br><br>
+
+    <label>
+      <input type="checkbox" id="agree" name="agree"> I agree to receive promotional emails.
+    </label><br><br>
+
+    <input type="submit" value="Subscribe">
+  </form>
+  <script>
+  function validatePromoForm() {
+    let name = document.getElementById("promo-name").value;
+    let email = document.getElementById("promo-email").value;
+    let agree = document.getElementById("agree").checked;
+
+    if (name === "" || email === "") {
+      alert("Please enter your name and email.");
+      return false;
+    }
+
+    if (!agree) {
+      alert("Please check the box to receive promotions.");
+      return false;
+    }
+
+    alert("Thank you for signing up!");
+    return true;
+  }
+</script>
+</section>
+</main>
   <footer>
     <p>&copy; 2025 Vv Styles Salon</p>
+    <a href="https://www.flaticon.com/free-icons/brands" title="brands icons">Icons created by Flaticon</a>
   </footer>
 </body>
 </html>

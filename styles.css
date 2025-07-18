@@ -105,6 +105,80 @@ section {
 footer {
   background-color: white;
   text-align: center;
-  text-
   padding: 1rem;
 }
+
+.map-img {
+  width: 30px;
+  height: 30px;
+
+}
+
+.fb-img {
+  width: 30px;
+  height: 30px;
+
+}
+
+.ig-img {
+  width: 30px;
+  height: 30px;
+}
+
+.booking-img {
+  width: 30px;
+  height: 30px;
+}
+
+.salon-img {
+  max-width: 400px;
+  height: 100;
+  border-radius: 8px;
+}
+
+/* In styles.css */
+h1 {
+  animation: fadeIn 2s ease-in;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+form#promoForm {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #fefefe;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+form#promoForm input[type="text"],
+form#promoForm input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form#promoForm input[type="submit"] {
+  background-color: #a875c7;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form#promoForm input[type="submit"]:hover {
+  background-color: #8d62aa;
+}
+
