@@ -115,14 +115,14 @@ footer {
 }
 
 .fb-img {
-  width: 100px;
-  height: auto;
+  width: 30px;
+  height: 30px;
 
 }
 
 .ig-img {
-  width: 100px;
-  height: auto;
+  width: 30px;
+  height: 30px;
 }
 
 .booking-img {
@@ -131,8 +131,8 @@ footer {
 }
 
 .salon-img {
-  max-width: 400px;
-  height: 100;
+  max-width: 100px;
+  height: auto;
   border-radius: 8px;
 }
 
