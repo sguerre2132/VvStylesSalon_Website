@@ -226,7 +226,8 @@ form#promoForm input[type="submit"]:hover {
 }
 
 table {
-  width: 100%;
+  width: 100x;
+  height: auto;
   border-collapse: collapse;
   margin: 2rem 0;
   font-size: 1rem;
