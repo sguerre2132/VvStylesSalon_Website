@@ -5,33 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="description" content="Vv Styles Salon - Braids and beauty services in a welcoming environment. Book your appointment today!" />
   <title>Vv Styles Salon</title>
-  <link rel="icon" href="images/logo.jpg"> 
+  <link rel="icon" href="images/logo.jpg" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body class="home">
-  <header>
-    <img src="images/logo.jpg" alt="Salon Logo" class="home-img">
-    <h1>Vv Styles Salon</h1>
-  </header>
 
-  <nav class="home">
-    <ul>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="links.html">Links</a></li>
-    </ul>
-  </nav>
-  <section>
-      <h2>Booking</h2>
-      <p>Ready to refresh your look? Click below to book your appointment through GlossGenius.</p>
-      <p><a href="https://vvstyles.glossgenius.com/" target="_blank" class="button">Book Now</a></p>
-      <img src="images/appointment.png" alt="Booking icon" class="booking-img">
+  <a href="#main-content" class="skip-link" style="position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;">Skip to main content</a>
 
-    </section>
+  <div class="container">
+    <header>
+      <img src="images/logo.jpg" alt="Salon Logo" class="home-img" loading="lazy" />
+      <h1>Vv Styles Salon</h1>
+    </header>
 
-   <footer>
-    <p>&copy; 2025 Vv Styles Salon</p>
+    <nav class="home" aria-label="Primary navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="links.html">Links</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-content">
+      <section>
+        <h2>Book Your Hair Appointment</h2>
+        <p>Ready to refresh your look? Click below to book your appointment through GlossGenius.</p>
+        <p>
+          <a href="https://vvstyles.glossgenius.com/" target="_blank" rel="noopener noreferrer" class="button">
+            <img src="images/appointment.png" alt="Booking icon" class="booking-img" loading="lazy" />
+            Book Now
+          </a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Vv Styles Salon</p>
     </footer>
+  </div>
+
 </body>
 </html>
